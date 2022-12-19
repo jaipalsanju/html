@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>nav bars</title>
+    <style>
+        .flex-container {
+            height: 100vh;
+            width: 100vw;
+            background-color: bisque;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+        }
+
+        .flex-item {
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            border: 2px solid black;
+            margin: 2rem;
+            padding: 2rem;
+        }
+
+        .box1 {
+            flex-basis: 200px;
+        }
+        section{
+            display:grid;
+            background-color: aquamarine;
+        }
+        .second{
+            margin:10px;
+            border:4px solid yellowgreen;
+            background-color: blueviolet;
+            border-radius: 12px;
+        }
+
+        audio {
+            color:red;
+            border: 2px solid black;
+            border-radius: 50px;
+            margin:10px;
+        }
+        iframe{
+            border:5px solid red;
+            border-radius: 12px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div class=" flex-item box1">
+            <p>hello</p>
+
+        </div>
+        <div class=" flex-item box2">
+            <p>i'm here</p>
+        </div>
+
+    </div>
+    <section class="utube">
+        <h1>HTML,CSS AND JS</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/A7fF6czIxEo" title="YouTube video player"
+            frameborder="1o"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+            <iframe class="second" height="200px" width="300px" src="project.html" allowfullscreen></iframe>
+            <audio controls>
+                <source src="Despacito(PagalWorld).mp3" type="audio/mpeg"> 
+            </audio>
+    </section>
+
+
+
+</body>
+
+</html>

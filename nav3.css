@@ -1,0 +1,46 @@
+
+
+.topnavbar{
+    width:95vw;
+    height:8vh;
+    background-color: rgb(37, 22, 52);
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    padding:8px;
+    list-style: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.sidenavbar{
+    width:18vw;
+    height: 90vh;
+    background-color: grey;
+    float:left;
+    flex-direction: column;
+    position: sticky;
+    margin-top: -16px;
+    display: flex;
+    
+    
+}
+
+p{
+    display:flex;
+    margin:5px;
+    padding:6px;
+}
+
+img{
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    
+}
